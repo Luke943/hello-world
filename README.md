@@ -1,2 +1,5 @@
 # hello-world
-Example with edit
+
+Example respository.
+
+Saying "hello world" in different programing languages.
