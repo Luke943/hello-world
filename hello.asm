@@ -12,7 +12,7 @@ start:
     fim r0 string               ; r0:r1 points to 'string' in code
 
 next_char:
-    fin r12                     ; read char pointed to into r2:r3
+    fin r2                     ; read char pointed to into r2:r3
     ld r3                       ; jump to 'finish' when null loaded (start)
     jcn an not_end  
     ld r2
